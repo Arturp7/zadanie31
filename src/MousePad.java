@@ -4,7 +4,11 @@ public class MousePad {
     int thickness;
     String color;
 
-    MousePad () {
+    MousePad (int dX, int dY, int thi, String col) {
+        dimensionX = dX;
+        dimensionY = dY;
+        thickness = thi;
+        color = col;
 
     }
 
